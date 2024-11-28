@@ -8,8 +8,16 @@
 </head>
 <body>
   <h1>Información sobre Países</h1>
-  <div id="countries-list"></div>
-
+  <div id="countries-list"></div> <!--Contenedor para la lista de países-->
+  <div id="modal" class="hidden"> <!--Modal para mostrar información detallada-->
+  <div id="modal-content">
+      <span id="close-btn">&times;</span>
+      <div id="country-details"></div>
+    </div>
+  </div>
   <script src="./js/script.js"></script>
 </body>
 </html>
+
+<!--En nuestro HTML creamos la estructura básica para mostrar la lista de países 
+y un modal para la información detallada-->
